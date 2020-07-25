@@ -1,0 +1,72 @@
+{
+  "name": "sdk0",
+  "version": "0.1.0",
+  "description": "Minimum viable sdk for all your projects",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willin/sdk0.git"
+  },
+  "keywords": [
+    "sdk",
+    "minimum",
+    "viable"
+  ],
+  "author": "Willin Wang",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/willin/sdk0/issues"
+  },
+  "homepage": "https://github.com/willin/sdk0#readme",
+  "dependencies": {
+    "axios": "*"
+  },
+  "devDependencies": {
+    "ava": "^3.10.1",
+    "eslint": "^7.5.0",
+    "eslint-config-willin": "^1.0.3",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "nyc": "^15.1.0",
+    "prettier": "^2.0.5"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.js",
+      "!**/_*/*.js",
+      "!**/_*.js"
+    ]
+  },
+  "nyc": {
+    "lines": 80,
+    "check-coverage": true,
+    "reporter": [
+      "lcov",
+      "html"
+    ],
+    "report-dir": "./.nyc_output",
+    "exclude": [
+      "test",
+      "test{,-*}.js",
+      "**/*.test.js",
+      "**/__tests__/**"
+    ]
+  }
+}
