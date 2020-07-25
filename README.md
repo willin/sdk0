@@ -2,7 +2,7 @@
 
 Minimum viable sdk for all your projects.
 
-[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Followers)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/sdk0.svg)](https://npmjs.org/package/sdk0) [![npm](https://img.shields.io/npm/dm/sdk0.svg)](https://npmjs.org/package/sdk0) [![npm](https://img.shields.io/npm/dt/sdk0.svg)](https://npmjs.org/package/sdk0) [![Build Status](https://travis-ci.org/willin/sdk0.svg?branch=master)](https://travis-ci.org/willin/sdk0)
+[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Followers)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/sdk0.svg)](https://npmjs.org/package/sdk0) [![npm](https://img.shields.io/npm/dm/sdk0.svg)](https://npmjs.org/package/sdk0) [![npm](https://img.shields.io/npm/dt/sdk0.svg)](https://npmjs.org/package/sdk0) [![Maintainability](https://api.codeclimate.com/v1/badges/2cc25e9843b39bc90545/maintainability)](https://codeclimate.com/github/willin/sdk0/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2cc25e9843b39bc90545/test_coverage)](https://codeclimate.com/github/willin/sdk0/test_coverage) [![Build Status](https://travis-ci.org/willin/sdk0.svg?branch=master)](https://travis-ci.org/willin/sdk0)
 
 ## Install
 
